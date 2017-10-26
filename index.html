@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>吉林扶余2017花生种植面积，产量和销售流向预测</title>
+  <link rel="stylesheet" href="./src/style/main.css">
+  <link rel="stylesheet" href="./node_modules/gago.gl/dist/gagogl.css">
+<link href="./css/index.4d9d3.css" rel="stylesheet"></head>
+
+<body>
+  <div class="wrapper">
+      <div id="nav">
+          <div class="logo"><img src="./logo.png" alt="佳格"><span>扶余花生</span></div>
+          <ul class="app-nav clearfix">
+            <li id="area">面积</li>
+            <li id="yield">产量</li>
+            <li id="saleFlow">销售流向
+              <ul class="app-nav-son clearfix">
+                <li id="jilin">吉林</li>
+                <li id="inland">国内</li>
+                <li id="foreign">国外</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div id="map">
+          <div id="mapLegend">
+            <p class="legendTitle">花生预估产量 (斤/公顷)</p>
+            <hr>
+            <div>
+              <p class="lineNum"><span>5000</span><span style="text-align:center;">6000</span><span style="text-align:center;">6500</span><span style="text-align:right;">9800</span></p>
+              <div class="lineGra"></div>
+            </div>
+          </div>
+          <div id="rightCircle">
+            <div id="mapCircle"></div>
+          </div>
+          <div id="rightLineMsg">
+            <div id="general">
+              <h2>概况</h2>
+              <!-- 产量 -->
+              <div id="general_output">
+                <p>花生2017年总产量：62.69万吨</p>
+                <p>覆膜花生产量：40.56万吨</p>
+                <p>覆膜花生品均单产：9500斤／公顷</p>
+                <p>非覆膜花生产量：22.13万吨</p>
+                <p>非覆膜花生平均单产：6300斤／公顷</p>
+              </div>
+              <!-- 面积 -->
+              <div id="general_area">
+                <p>花生种植总面积：155637.81074公顷</p>
+                <p>覆膜花生面积：70249.37833公顷</p>
+                <p>非覆膜花生面积：85388.43241万公顷</p>
+              </div>
+            </div>
+            <div class="column">
+              <div id="myColumn"></div>
+              <div class="switch">
+                <button id="sum">总量</button>
+                <button id="single">单产</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+  <!-- <script src="./jquery-3.2.1.min.js"></script> -->
+  <!-- <script>
+    // const $ = require("jquery");
+    $('#saleFlow').on('mouseover', function () {
+      $('.app-nav-son').show();
+    });
+    $('#saleFlow').on('mouseout', function () {
+      $('.app-nav-son').hide();
+    });
+  </script> -->
+  <script src="./src/app.js"></script>
+  <!-- <script>
+    require('./src/app.js');
+  </script> -->
+<script type="text/javascript" src="./js/vendors.js"></script><script type="text/javascript" src="./js/index.932c4.js"></script></body>
+
+</html>
